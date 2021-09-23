@@ -551,6 +551,11 @@ pre code {
   margin-left: auto;
 }
 
+.container > p {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
