@@ -27,7 +27,7 @@
                 @yield('content')
             @endif
 
-            <ul class="breadcrumb">
+            <ul class="breadcrumb brands-container">
                 <li>
 					<a href="/" title="{{ __('misc.home_alt') }}" alt="{{ __('misc.home_alt') }}">{{ __('misc.home') }}</a>
 				</li>
