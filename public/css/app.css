@@ -556,6 +556,11 @@ pre code {
   font-weight: 600;
 }
 
+.manual-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
