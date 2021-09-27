@@ -66,7 +66,56 @@ body {
 }
 
 footer {
+  padding: 20px 0;
   color: #fff;
+}
+
+.about, .contact, .address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact {
+  height: 200px;
+}
+
+.contact svg {
+  height: 15px;
+}
+
+.address-container {
+  display: flex;
+  flex-direction: column;
+  height: 115px;
+  justify-content: space-around;
+}
+
+.contact-info p {
+  margin: 0;
+}
+
+.about {
+  padding: 10px 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  height: fit-content;
+}
+
+.social-links svg {
+  height: 45px;
+}
+
+.social-links a {
+  color: #fff;
+}
+
+.social-links a:hover {
+  color: #e9ecef;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
