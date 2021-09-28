@@ -608,6 +608,18 @@ pre code {
 .manual-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 12px;
+}
+
+.manual-container a {
+  background: #c82e29;
+  color: white;
+  padding: 4px 7px;
+  border-radius: 5px;
+}
+
+.manual-container a:hover {
+  background-color: #9e2420;
 }
 
 @media (min-width: 576px) {
