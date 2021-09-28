@@ -16,6 +16,7 @@ class CreateManualsTable extends Migration
         Schema::create('manuals', function (Blueprint $table) {
             $table->id();
             $table->bigInteger('filesize');
+            $table->integer('viewCount')->default(0);
             $table->text('originUrl');
             $table->string('filename');
             $table->string('downloadedServer');
