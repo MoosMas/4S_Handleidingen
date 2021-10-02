@@ -605,20 +605,20 @@ pre code {
   font-weight: 600;
 }
 
-.manual-container {
+.grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 12px;
 }
 
-.manual-container a {
+.manual-container .type-link {
   background: #c82e29;
   color: white;
   padding: 4px 7px;
   border-radius: 5px;
 }
 
-.manual-container a:hover {
+.manual-container .type-link:hover {
   background-color: #9e2420;
 }
 
